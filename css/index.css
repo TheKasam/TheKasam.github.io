@@ -96,12 +96,13 @@ border-width: 0px;
 }
 
 #drone{
-    position: fixed;
+  /*fixed for all the website*/
+    position: absolute;
     top: 50%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
     z-index: -100;
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -110,8 +111,9 @@ border-width: 0px;
     transform: translateX(-50%) translateY(-50%);
     background: url(screenshot.jpg) no-repeat;
     background-size: cover;
-
 }
+
+
 #overallDiv{
   padding-top: 10%;
 }
@@ -243,10 +245,7 @@ padding-right: 4%;
   padding-bottom: 1%;
 
 }
-header {
 
-
-}
 
 #header-content {
   padding-top: 7%;
