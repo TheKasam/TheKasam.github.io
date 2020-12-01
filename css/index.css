@@ -43,6 +43,9 @@ h2{
   right: 0;
   
 }
+/* #medium{
+  width: 100% !important;
+} */
 
 @media only screen and (max-width: 801px) {
   #screen1{
